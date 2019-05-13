@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.owen.widget.RoundFrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="130pt"
+    android:background="@color/colorAccent"
+    app:rfl_radius="10pt"
+    android:focusable="true"
+    android:clickable="true">
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="@android:color/holo_green_dark"
+        android:gravity="bottom|right"
+        android:padding="10pt"
+        android:textSize="20pt"/>
+
+</com.owen.widget.RoundFrameLayout>
