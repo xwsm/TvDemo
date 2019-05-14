@@ -67,5 +67,7 @@ public class MainActivity extends AppCompatActivity{
             }
         });
     }
-
+    public interface FocusBorderHelper {
+        FocusBorder getFocusBorder();
+    }
 }
